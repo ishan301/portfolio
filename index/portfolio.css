@@ -1,0 +1,28 @@
+.container{
+    border: 10px solid white;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    /* border: 10px solid white; */
+    /* margin: 10px; */
+    background-color: #181a1b;
+}
+header{
+    background-color: #333333;
+}
+.invert{
+    filter: invert(100%);
+}
+#work{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+}

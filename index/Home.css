@@ -1,0 +1,131 @@
+ .u-section-1 {
+  min-height: 806px;
+}
+
+header{
+  background-color: #181a1b;
+  color: white;
+}
+section{
+  background-color: #181a1b;
+  color: white;
+}
+.resumePort{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+}
+.btn{
+  background-color: #333333;
+  border-radius: 25px;
+  margin: 10px;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.btn:hover{
+  background-color: #adcce9;
+}
+.u-section-1 .u-image-1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  background-image: url("images/5eead1f03c7062f543ab60b6e043366dd05ffb9a0cb904f0f33470fe71ae9829393d335c72beceac0a2ebdfad30d2552b79c3d3c723357d6f221b4_1280.jpg");
+  min-height: 403px;
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-section-1 .u-image-2 {
+  width: 422px;
+  height: 422px;
+  background-image: url("images/professionalpic.jfif");
+  background-position: 50% 50%;
+  margin: -343px auto 0;
+}
+
+.u-section-1 .u-text-1 {
+  width: 554px;
+  font-weight: 600;
+  margin: 60px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 4px;
+  font-size: 3rem;
+  width: 554px;
+  margin: 20px auto 60px;
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-1 {
+    min-height: 724px;
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 340px;
+    height: 340px;
+    margin-top: -238px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 1.5rem;
+    width: 340px;
+  }
+}
+#container {
+	text-align: center;
+}
+
+#text {
+	display: inline-block;
+	vertical-align: middle;
+	color: white;
+	letter-spacing: 2px;
+}
+
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 50px;
+	background-color: white;
+	animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: #181a1b; 
+	}
+}
