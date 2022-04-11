@@ -3,7 +3,10 @@
     padding: 20px;
     border-radius: 50px;
     margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
 }
+
 .skills{
     display: flex;
     flex-direction: column;
@@ -12,9 +15,6 @@
     /* border: 10px solid white; */
     /* margin: 10px; */
     background-color: #181a1b;
-}
-.increase{
-    font-size: large;
 }
 header{
     background-color: #333333;
@@ -28,4 +28,10 @@ header{
     text-align: center;
     justify-content: center;
     padding-top: 10px;
+}
+.margin{
+    margin: 10px;
+}
+.project{
+    display: flex;
 }
